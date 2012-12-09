@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.1 Transitional//EN">
+<html>
+<head>
+<title>Расчет уровней квантового ангармонического осциллятора.</title>
+<meta http-equiv="content-type" content="text/html; charset=Windows-1251" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon">
+<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+</head>
+<body>
+	<table align="center" height="80%" width="80%">
+		<tr>
+			<td  class="up" colspan="4">Потенциал Морзе</td>
+		</tr>
+		<tr>
+			<td class="center"><a class="button" href="index.html"shape="rect">ГЛАВНАЯ</a></td>
+			<td class="center"><a class="button" href="desc.html"shape="rect">ОПИСАНИЕ</a></td>
+			<td class="center"><a class="button" href="calc.html"shape="rect">РАСЧЕТ</a></td>
+			<td class="center"><a class="button" href="addit.html"shape="rect">ТЕСТ</a></td>		
+		</tr>
+		<tr>
+			<td colspan="4" class="buttom">					
+			<font class="zagl">Морзе.</font>
+				<table class="form_b">
+					<tr>
+						<td>
+							Потенциал предлженый Морзе:
+							<p><img src="form/Mo_form_1.png" alt="Потенциал Кратцера" height="80" width="320" align="middle"/></p>
+						</td>
+						<td>
+							Кривая имеет вид:
+							<p><img src="image/Mors.png" alt="Кривая потенциала Кратцера" height="300" width="300" align="bottom"/></p>
+						</td>
+					</tr>
+				</table>					
+							<form action="up_mo.php" method="post" enctype="multipart/form-data">
+								<table class="form">
+									<tr>
+										<td colspan="2"><input type="hidden" name="nop" value="401"/></td>
+									</tr>
+									<tr>
+										<td>Вторая производная:</td>
+										<td><input type="text" name="sec"/></td>
+									</tr>
+									<tr>
+										<td>Ширина потенциальной кривой(angstrem):</td>
+										<td><input type="text" name="width"/></td>
+									</tr>
+									<tr>
+ 										<td>D:</td>
+  			 							<td><input type="text" name="d"/></td>
+ 									</tr>
+									<tr>
+ 										<td>Масса частицы (au):</td>
+  			 							<td><input type="text" name="mass"/></td>
+ 									</tr>				
+						<tr>
+							<td>Число уровней для расчета:</td>
+							<td><input type="text" name="nol"/></td>
+						</tr>
+						<tr>
+  							<td align="center" colspan="2"><input  type="submit" name="Sending"/></td>
+ 						</tr>
+					</table>
+				</form>						
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
